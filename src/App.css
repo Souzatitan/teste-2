@@ -1,0 +1,138 @@
+.Logo {
+  position: absolute;
+  transform: translate(-300%, -200%); 
+}
+
+
+body {
+  background-image: url(./img/imagemfundo.png);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  font-family: 'Breathe Fire III', sans-serif;
+  color: white;
+  min-width: 50vw;
+}
+
+/* Estilos para o formulário de login */
+.login {
+  background-image: url(./img/fundo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  padding: 60px 20%;
+  
+}
+
+h3{
+
+  font-size: 20px;
+  color: white;
+  background-color: #8B4513;
+  position: relative;
+  transform: translate(40px, -300%);
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+/* Estilos para links */
+a {
+  position:relative;
+  color: white;
+  transition: all 0.2s ease;
+  background-color: #8B4513; 
+  border: none;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+a:hover {
+  color: black;
+  background-color: #6e3518;
+}
+
+.mb-3 {
+  padding: 10px 0 10px 0 ;
+  position: relative;
+  transform: translate(-60%, -100%);
+}
+
+.mb-2 {
+  display: block;
+  position: relative;
+  padding: 10px 10px 10px 50px;
+  width: 40px;
+  height: 50px;
+  transform: translate(-150%, -110%);
+}
+
+.reset {
+  font-size: 15px;
+  width: 180px;
+  position: relative;
+  transform: translate(70%, -50%);
+}
+.text-end  {
+  display:flex;
+  width: 120px;
+  height: 25px;
+  gap: 80px;
+  font-size: 15px;
+  position: relative;
+  transform: translate(-30%, 210%);
+  border-radius: 5px;
+}
+
+/* Estilos para os botões */
+.btn-login:hover,
+.btn-voltar:hover {
+  background-color: #6e3518;
+}
+
+/* Estilos para texto no final */
+
+
+/* Media Queries */
+@media (min-width: 375px) {
+  body {
+    height: 667px; 
+  }
+  .login {
+    width: 90px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 667px) {
+  body {
+    height: 375px;
+  }
+  .login {
+    width: 200px;
+    height: 300px;
+    margin-left: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    height: 768px;
+  }
+}

@@ -1,0 +1,65 @@
+
+
+.register-box-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.register-box-back p {
+    position:absolute;
+    color: #8B0000;
+    text-align: center;
+    font-size: 1.25em;
+    transform: rotate(14deg);
+    cursor: pointer;
+    transform: translate(-10%, -60%);
+    
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+    .register-box-back {
+        background: url(../img/back.png) center/cover no-repeat;
+        width: 105px;
+        height: 110px;
+        transform: translate(-25%, -100%);
+    }
+
+    .register-box-back p {
+        padding: 21px 0 0 10px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .register-box-back {
+        background: url(../img/back.png) center/cover no-repeat;
+        width: 105px;
+        height: 110px;
+        transform: translate(0, -100%);
+    }
+
+    .register-box-back p {
+        padding: 21px 0 0 10px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 667x) {
+    .register-box-back {
+        background: url(../img/back-sign-croped.png) center/cover no-repeat;
+        width: 110px;
+        height: 90px;
+        transform: translate(0, -113%);
+    }
+
+    .register-box-back p {
+        padding: 28px 0 0 10px;
+    }
+}
